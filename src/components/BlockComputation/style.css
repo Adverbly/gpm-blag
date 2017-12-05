@@ -1,0 +1,81 @@
+{
+    padding: 0;
+    margin: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+.eval-container {
+    width: 360px;
+    height: 220px;
+    display: inline-flex;
+    align-items: center;
+    box-shadow: 1px 0px 5px 2px rgba(38, 199, 219, 0.5);
+}
+
+.controls {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: rgba(34, 34, 34, 0.43);
+}
+
+.assoc-left {
+    color: rgba(175, 175, 175, 0.43);
+    margin-right: 50px
+}
+
+.assoc-left:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.assoc-right {
+    color: rgba(186, 186, 186, 0.43);
+    margin-left: 50px
+}
+
+.assoc-right:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.swap-button {
+    color: rgba(169, 169, 169, 0.43);
+}
+
+.swap-button:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.full-computation {
+    margin:10px;
+    display: inline-block;
+    /*height: 200px;*/
+}
+
+.eval-arg {
+    padding: 10px 1px;
+    width: inherit;
+    height: 70%;
+    justify-content: initial;
+    box-shadow: 1px 0px 5px 2px rgba(45, 234, 255, 0.29);
+    display: inline-flex;
+    align-items: center;
+    -webkit-box-align: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arg{
+    background-color: tomato;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    box-shadow: 1px 0px 5px 2px rgba(143, 223, 216, 0.21);
+}
