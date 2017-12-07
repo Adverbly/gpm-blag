@@ -2,7 +2,6 @@ import React from 'react'
 
 class Banner extends React.Component {
   render(props) {
-      console.log(props)
     const siteTitle = this.props.data.site.siteMetadata.title
     const siteDescription = this.props.data.site.siteMetadata.description
 

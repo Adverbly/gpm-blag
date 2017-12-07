@@ -9,13 +9,16 @@ class BlogPostTemplate extends React.Component {
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
 
     return (
-    <div style={{ margin: `0 auto`, maxWidth: 650, padding: `0 1rem` }}>
-        <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
-        <h1>{post.frontmatter.title}</h1>
+      <div style={{margin: `0 auto`, maxWidth: 650, padding: `0 1rem`}}>
+        <Helmet title={`${post.frontmatter.title} | ${siteTitle}`}/>
+
+        <header className="major">
+          <h1>{post.frontmatter.title}</h1>
+        </header>
         <p>
-          {post.frontmatter.date}
+          <em>{post.frontmatter.date} </em>
         </p>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div dangerouslySetInnerHTML={{__html: post.html}}/>
         <hr/>
       </div>
     )

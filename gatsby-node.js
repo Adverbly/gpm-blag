@@ -3,6 +3,7 @@ const Promise = require("bluebird")
 const path = require("path")
 const select = require(`unist-util-select`)
 const fs = require(`fs-extra`)
+const { createFilePath } = require(`gatsby-source-filesystem`)
 
 exports.createPages = ({ graphql, boundActionCreators }) => {
   const { createPage } = boundActionCreators
@@ -46,7 +47,17 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
   })
 }
 
-
+exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
+  const { createNodeField } = boundActionCreators
+  if (node.internal.type === `MarkdownRemark`) {
+    const backgroundPicture = createFilePath({ node, getNode, basePath: `pages` })
+    createNodeField({
+      node,
+      name: `backgroundPicture`,
+      value: backgroundPicture,
+    })
+  }
+}
 // // Implement the Gatsby API “onCreatePage”. This is
 // // called after every page is created.
 // exports.onCreatePage = async ({ page, boundActionCreators }) => {
