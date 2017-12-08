@@ -14,7 +14,7 @@ class Banner extends React.Component {
             <div className="content">
                 <p>{siteDescription}</p>
                 <ul className="actions">
-                    <li><a href="#one" className="button next scrolly">Get Started</a></li>
+                    <li><a href="#one" className="button next scrolly">Turn some gears.</a></li>
                 </ul>
             </div>
         </div>

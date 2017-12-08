@@ -10,15 +10,10 @@ class Post extends Component {
   render() {
     return (
       <div style={{ margin: `0 auto`, maxWidth: 750, padding: `0 1rem` }} >
-        <a className="gohome" href="/"> All Articles</a>
         <div className="blog-single">
           <div className="text">
             <h1>Commutativity and Associativity Visualized</h1>
             <div id="content">
-              {/* <BlockComputationSingle associative={false} commutes={false} initComputation={[1,[2,3]]} layout="grid"/>*/}
-              {/* <BlockComputationSingle associative={false} commutes={false} initComputation={[3,[1,2]]}/>*/}
-              {/* <BlockComputationSingle associative={false} commutes={false} initComputation={[[1,3],2]}/>*/}
-              {/* <BlockComputationSingle associative={true} commutes={true} numTerms="4" structureKey="2"/>*/}
               <p>Have you ever had one of those moments where you find yourself googling the definition of something for
                 the hundredth time because it just won't seem to stick in your head? To me, this is a red flag that I
                 don't yet <a href="https://www.wired.com/1996/02/jobs-2/"><b>grok</b></a> a concept. My most recent
