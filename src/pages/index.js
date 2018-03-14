@@ -7,12 +7,14 @@ import picPi1 from '../assets/images/looping-giphy.gif'
 import picAkrasia from '../assets/images/smoking.png'
 import picNumPat from '../assets/images/numerical-pattern-pic.jpg'
 import picDesign from '../assets/images/design-int.png'
+import picPi2 from '../assets/images/IMG_20180313_201804.jpg'
 import picCommutativity from '../assets/images/assoc-pic.png'
 let pictureMap = {
   "Pi Day 2017": picPi1,
   "Akrasia": picAkrasia,
   "A Numerical Pattern?": picNumPat,
   "Design and Intelligence": picDesign,
+    "Pi Day 2018": picPi2,
 }
 class HomeIndex extends React.Component {
     render() {
