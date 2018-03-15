@@ -37,6 +37,6 @@
     "develop": "gatsby develop",
     "build": "gatsby build",
     "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js",
-    "deploy": "rm -rf public && mkdir public && cp CNAME public && gatsby build && surge public/"
+    "deploy": "rm -rf .cache/* ; rm -rf public && mkdir public && cp CNAME public && gatsby build && surge public/"
   }
 }

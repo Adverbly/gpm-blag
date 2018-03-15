@@ -21,22 +21,20 @@ Pi can show up where you least expect it. Just ask Georges-Louis Leclerc, Comte 
 
 Presenting: Surpies Pi[e]s
 
-![1](../../assets/images/IMG_20180313_193437.jpg)
+![1](IMG_20180313_193437.jpg)
 
-![1](../../assets/images/IMG_20180313_193503.jpg)
+![1](IMG_20180313_193503.jpg)
 
-![1](../../assets/images/IMG_20180313_194210.jpg)
+![1](IMG_20180313_194210.jpg)
 
-![1](../../assets/images/IMG_20180313_193607.jpg)
+![1](IMG_20180313_193607.jpg)
 
-![1](../../assets/images/IMG_20180313_194157.jpg)
+![1](IMG_20180313_194157.jpg)
 
-![1](../../assets/images/IMG_20180313_194709.jpg)
+![1](IMG_20180313_194709.jpg)
 
-![1](../../assets/images/IMG_20180313_195432.jpg)
+![1](IMG_20180313_195432.jpg)
 
-![1](../../assets/images/IMG_20180313_200403.jpg)
+![1](IMG_20180313_200403.jpg)
 
-![1](../../assets/images/IMG_20180313_201804.jpg)
-
-
+![1](IMG_20180313_201804.jpg)
