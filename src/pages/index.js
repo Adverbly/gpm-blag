@@ -9,7 +9,9 @@ import picNumPat from '../assets/images/numerical-pattern-pic.jpg'
 import picDesign from '../assets/images/design-int.png'
 import picPi2 from '../assets/images/IMG_20180313_201804.jpg'
 import balanceBusiness from '../assets/images/balance-2-by-2.png'
+import sustainableSuccess from '../assets/images/stability-compressed.gif'
 import picCommutativity from '../assets/images/assoc-pic.png'
+
 let pictureMap = {
     "Big Counting": picNumPat,
     "Pi Day 2018": picPi2,
@@ -18,6 +20,7 @@ let pictureMap = {
     "Pi Day 2017": picPi1,
     "Design and Intelligence": picDesign,
     "Balanced Business": balanceBusiness,
+    "Sustainable Success": sustainableSuccess,
 }
 class HomeIndex extends React.Component {
     render() {
