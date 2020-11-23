@@ -13,4 +13,4 @@ I know a lot of people who have one or two choice holidays that they seem to cel
 
 **[Planetary](https://en.wikipedia.org/wiki/Epicyclic_gearing)** Pies
 
-![Gif of Planetary Pies](https://media.giphy.com/media/Ed0U8ufnwQ46Y/giphy.gif)
+![Gif of Planetary Pies](looping-giphy.gif)
