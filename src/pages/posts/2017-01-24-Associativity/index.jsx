@@ -116,7 +116,7 @@ class Post extends Component {
                 full binary trees, where the leaf nodes are arguments, and the parent nodes are the result of their
                 children's evaluation.</p>
               <p>The leaf nodes represent the inputs, and the structure of the tree represents exactly how those
-                arguments are consumed. Neat! Okay so let's bring this back to associativity and
+                arguments are consumed. Neat! Folks often say that data modeling should be at the heart of a concept. If you can model the concept, you likely "grok" it. We're getting close. Let's bring this back to associativity and
                 commutativity now. How does adding these properties change which data structures can be used to
                 represent the computation?</p>
               <p>If we add both properties, we are guaranteed equivalency to any other computation with the same count
@@ -158,13 +158,12 @@ class Post extends Component {
                 a count of the arguments within the group, similar to what we did with both properties present, but we
                 fall short this time of being able to reuse one argument count across all groups. As a result, we will
                 require nested hashmaps to be able to represent computations which only possess the commutative
-                property. To summarize, </p>
-              <p>Associative and Commutative** - Hashmap</p>
+                property. So bringing this full circle, here is how we could model a computation assuming that our operation had the following properties:</p>
+              <p>Associative and Commutative - Single Hashmap</p>
               <p>Associative and Not Commutative - Linked List</p>
               <p>Not Associative and Commutative - Nested Hashmap</p>
               <p>Not Associative and Not Commutative - Full Binary Tree</p>
-              <p>Great! I hoped this visual dive into the exact definition and consequences of these properties has
-                helped with your understanding. </p>
+              <p>So commutative operations are buckets(hashmaps), and associative ones are ordered(trees/linked lists). This was finally enough for me to "grok" these properties, and I don't expect I'll be googling their definition any time soon. I hoped this visual dive has helped you too! Thanks for reading.</p>
             </div>
           </div>
         </div>
