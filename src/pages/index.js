@@ -18,7 +18,6 @@ let pictureMap = {
     "Akrasia": picAkrasia,
     "A Numerical Pattern?": picNumPat,
     "Pi Day 2017": picPi1,
-    "Design and Intelligence": picDesign,
     "Balanced Business": balanceBusiness,
     "Sustainable Success": sustainableSuccess,
 }
